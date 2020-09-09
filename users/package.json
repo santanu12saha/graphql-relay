@@ -1,0 +1,32 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Practice Application for graphql and relay.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santanu12saha/graphql-relay.git"
+  },
+  "keywords": [
+    "graphql",
+    "relay",
+    "express",
+    "node",
+    "api"
+  ],
+  "author": "Santanu Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santanu12saha/graphql-relay/issues"
+  },
+  "homepage": "https://github.com/santanu12saha/graphql-relay#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.20"
+  }
+}
