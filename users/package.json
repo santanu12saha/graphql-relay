@@ -4,7 +4,8 @@
   "description": "Practice Application for graphql and relay.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
+    "json-server": "^0.16.1",
     "lodash": "^4.17.20"
   }
 }
